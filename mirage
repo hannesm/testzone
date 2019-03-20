@@ -1,8 +1,11 @@
-mirage.	86400	SOA	ns.mirage.	hostmaster.mirage.	2	3600	1800	3024000	1800
-mirage.	86400	NS	ns2.mirage.
-mirage.	86400	NS	ns.mirage.
-mirage.	86400	MX	10	mail.mirage.
-foo.mirage.	300	A	10.0.42.10
-mail.mirage.	86400	A	10.0.42.3
-ns.mirage.	86400	A	10.0.42.2
-ns2.mirage.	86400	A	10.0.42.4
+$ORIGIN mirage.
+$TTL 86400
+@	SOA	ns	hostmaster	3	3600	1800	3024000	1800
+@	NS	ns2
+@	NS	ns
+@	MX	10	mail
+bar	A	10.0.42.11
+foo	300	A	10.0.42.10
+mail	A	10.0.42.3
+ns	A	10.0.42.2
+ns2	A	10.0.42.4
