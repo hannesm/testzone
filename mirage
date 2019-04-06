@@ -1,6 +1,6 @@
 $ORIGIN mirage.
 $TTL 1800
-@	SOA	ns	hostmaster	23	3600	1800	3024000	1800
+@	SOA	ns	hostmaster	24	3600	1800	3024000	1800
 @	86400	NS	ns2
 @	86400	NS	ns
 @	MX	10	mail
