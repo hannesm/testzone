@@ -1,4 +1,4 @@
 $ORIGIN mirage.
 10.0.42.2.10.0.42.4._transfer   DNSKEY 0 3 163 G/7zDZr98BTzoi9N6HEUFOg7byKfH9rsPav5JMm9l8Y=
 one._update                     DNSKEY 0 3 163 eRhj4OoaGIIJ3I9hJFwYGhAkdiR5DNzia0WoGrYy70k=
-
+two._update                     DNSKEY 0 3 163 eRhj4OoaGIIJ3I9hJFwYGhAkdiR5DNzia0WoGrYy70k=
